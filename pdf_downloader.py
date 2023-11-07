@@ -9,7 +9,7 @@ def get_links(html_number=["1st.html","2nd.html"],list_link=[]):
 
     url = "https://www.jaspa.or.jp/mechanic/past/"
 
-    for year in range(2004,2023):
+    for year in range(2004,2019):
         for html in html_number:
             
             list_link.append(f"{url}{year}/{html}")
