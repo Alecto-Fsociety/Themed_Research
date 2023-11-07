@@ -3,10 +3,7 @@ import sys,os,pathlib,subprocess,glob,itertools,shutil,random
 #bash_file_setup = subprocess.call(["chmod","x+","tools_install.sh"],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
 #bash_file_start = subprocess.call(["./tools_install.sh"],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
 
-import requests # docx
-from bs4 import BeautifulSoup
-
-def pdf_changer(main_path="PDF",pdf_date="PDF_File",path_image="Image_Date",image_file_path="Image_File",path_ocr="OCR_Text",word_file="word_file",path_name="../pdf_path/*.pdf",cycle=itertools.cycle(r"/-\|")):
+def pdf_changer(main_path="PDF",pdf_date="PDF_File",path_image="Image_Date",image_file_path="Image_File",path_ocr="OCR_Text",word_file="word_file",path_name="pdf_path/*.pdf",cycle=itertools.cycle(r"/-\|")):
 
     pathlib.Path(main_path).mkdir(exist_ok=True)
 
