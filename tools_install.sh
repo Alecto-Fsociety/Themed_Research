@@ -1,7 +1,12 @@
 #!/bin/sh
 
 apt update
-apt upgrade
+apt upgrade -y
+
+python3 -m pip install --upgrade pip 
+
+pip install requests
+pip install bs4 
 
 apt install tesseract-ocr
 apt install libtesseract-dev
