@@ -87,7 +87,7 @@ This tool is intended **for personal research and automation**.
 ---
 
 ## **🐟 License**
-This project is licensed under the **MIT License**.  
+This project is licensed under the **[MIT License](https://github.com/Alecto-Fsociety/Alecto-Fsociety/blob/main/LICENSE)**.  
 Feel free to use, modify, and contribute!
 
 ---
